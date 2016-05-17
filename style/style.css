@@ -6,17 +6,16 @@
 .header{
 	width: 100%;
 	height: 10%;
-	background-color: #FFFFFF;
+	background :rgba(255,255,255,0.5)!important;
+	background :#fff;
 	filter:alpha(opacity=50); 
 	-moz-opacity:0.5; 
-	opacity:0.5;
-
 }
 .logo{
 	width: 99%;
 	height: 90%;
 	margin: 0.5%;
-
+	position: relative;
 }
 .imglogo{
 	width:auto;
@@ -27,12 +26,12 @@
 .imgpicko{
 	width:auto;
  	height:auto;
- 	max-height:20%;	
+ 	max-height:25%;	
 }
 .download{
 	height: 100%;
  	float: right;
-	margin-right: 15%;
+	margin-right: 10%;
 }
 .download img{
 	width:auto;
@@ -57,6 +56,9 @@
  	max-width:40%;
 
  	margin: 5%;
+}
+.textbox03{
+	margin: 0px;
 }
 .imgbox img{
 	width:auto;
